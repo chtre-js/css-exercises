@@ -12,6 +12,33 @@ img {
   font-weight: 900;
 }
 
+.main-wrapper {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  gap: 50px;
+}
+
+.plant-list {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+
+.plant-description_wrap {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  gap: 5px;
+  margin: 0;
+  padding: 0;
+}
+
+.text {
+  text-align: center;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
